@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<html lang="pt-BR">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta charset="utf-8">
+    <title>Teste Site</title>
+    <link rel="stylesheet"  type="text/css" href="css\style1.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Questrial&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+  <div class="cabecalho">
+
+      <div class="toggle">
+        <div class="menu"> <i class="fa fa-bars"  aria-hidden="true"></i> </div>
+      </div>
+
+      <ul>
+        <li><a href="conteudo.html">Conteúdo <img src="Icons\my-icons-collection (1)\png\011-library.png"> </a></li>
+
+        <li><a href="download.html">Download<img src="Icons\download\png\014-download-7.png" ></a></li>
+      </ul>
+      <img class="logo" src="logo.png" >
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script type="text/javascript">
+         $(document).ready(function(){
+           $('.menu').click(function(){
+             $('ul').toggleClass('active');
+           })
+         })
+     </script>
+
+     <div class="download">
+   <img src="img.png">
+</div>
+<div class="button">
+<a href="#">
+  <span class="front"> Download </span>
+  <span class="center"></span>
+  <span class="back"><img src="Icons\download\png\003-download-1.png"></span>
+</a>
+</div>
+   </body>
+ </html>
